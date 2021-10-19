@@ -7,6 +7,9 @@ import axios from "axios";
 *------Não------ = Cria no DB, e gera um token
 *Retornar o token com as infos do user
 */
+interface IAccessTokenResponse {
+    
+}
 
 class AuthenticateUserService {
     async execute( code: string ) {

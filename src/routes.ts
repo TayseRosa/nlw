@@ -3,6 +3,6 @@ import { AuthenticateUserController } from "./controllers/AthenticateUserControl
 
 const router = Router();
 
-router.post("Authenticate", new AuthenticateUserController().handle)
+router.post("/authenticate", new AuthenticateUserController().handle)
 
 export { router }
